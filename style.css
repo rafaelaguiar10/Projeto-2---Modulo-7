@@ -28,12 +28,18 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .banner-elements{
   color:var(--branco);
   font-family: 'Playfair Display', serif;
-  
 }
 
 .Menu{
@@ -469,16 +475,6 @@ main {
     margin-bottom: 24px;
   }
 
-  .seta-cidade{
-    width: 16px;
-    height: 8px;
-    margin-top: 35px;
-    margin-left: -35px;
-    color:var(--preto-footer);
-    position: absolute;
-  }
-
-
   .lupa{
     width: 18px;
     height: 18px;
@@ -494,14 +490,16 @@ main {
     justify-content: center;
 }
 
-  footer{
-    width: 1600px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 150px;
-    background-color: var(--bege-variedade-cafe);
+footer{
+  width: 1600px;
+  height: 306px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--bege-variedade-cafe);
 
-  }
+}
 
   .containers-footer{
     display: flex;
